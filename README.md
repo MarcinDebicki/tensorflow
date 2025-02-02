@@ -1,1 +1,1 @@
-# tensorflow
+# Dokumentacja na spotkanie w ramach naszych coponiedziałkowych spotkań
