@@ -1,7 +1,7 @@
 # Dokładamy metodę callbacku, która mówi, że jeśli funkcja straty rośnie to należy zakończyć trening
 # Na końcu zapisujemy model do pliku
 # uruchomienie:
-# python3 03_model_sieci_trening.py < dane_treningowe.txt
+# python3 01_model_sieci.py < dane_treningowe.txt
 
 plik = "03_model_sieci_zapisany.keras"
 

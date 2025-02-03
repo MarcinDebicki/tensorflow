@@ -1,6 +1,6 @@
 # Dokładamy metodę losowej regularyzacji w postaci zaślepek na 20% neuronów w warstwach ukrytych
 # uruchomienie:
-# python3 02_model_sieci_trening.py < dane_treningowe.txt
+# python3 01_model_sieci.py < dane_treningowe.txt
 
 import tensorflow as tf
 import os
