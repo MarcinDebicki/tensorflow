@@ -1,6 +1,7 @@
 # Zmieniamy funkcję aktywacji na sigmoid, dodano regularyzację L2, regularyzacja L2 wprowadza karę za zbyt duże wagi, co zapobiega przeuczeniu sieci
 # Można jesze zastosować regularazycję L1, która eliminuje cechy nieistotne tf.keras.layers.Dense(20, activation='sigmoid', kernel_regularizer=l1(0.01)),
 # Albo regularayzjcę L1 i L2 wtedy zostaną wyeliminowane cechy mało istotne i jednocześnie sieć będzie zapobiegała przywiązywaniu zbyt dużej wagi do pojedynczhych cech
+# tf.keras.layers.Dense(20, activation='sigmoid', kernel_regularizer=l1_l2(l1=0.01, l2=0.01)),
 # Na końcu zapisujemy model, tego też jeszcze nie było
 # uruchomienie:
 # python3 04_model_sieci_trening.py < dane_treningowe.txt
