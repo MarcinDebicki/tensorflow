@@ -1,3 +1,8 @@
+# Program do testowania naszej sieci
+# Sposób uruchomienia:
+# python3 test.py
+# po uruchomieniu podajesz "z palca" co zapodać sieci
+
 import sys
 import numpy as np
 import tensorflow as tf
