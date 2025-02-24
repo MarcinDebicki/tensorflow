@@ -16,7 +16,7 @@ class_names = ["cat", "dog"]  # Musisz upewnić się, że są w tej samej kolejn
 model.summary()
 
 # Ścieżka do obrazu do klasyfikacji
-image_path = "zdjecie_01.jpg"  # Podmień na swoją ścieżkę
+image_path = "zdjecie_02.jpg"  # Podmień na swoją ścieżkę
 
 # Parametry zgodne z trenowaniem modelu
 img_size = (300, 300)  # Musi być zgodne z tym, co było używane przy trenowaniu
