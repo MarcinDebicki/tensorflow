@@ -72,7 +72,7 @@ model = keras.Sequential([
     layers.Flatten(),
     layers.Dense(128, activation="relu"),
     layers.Dropout(0.5),
-    layers.Dense(2, activation="sigmoid")  # 2 wyjścia dla [P_dog, P_cat]
+    layers.Dense(2, activation="sigmoid")  # 2 wyjścia dla [cat, dog]
 ])
 
 # Kompilacja modelu

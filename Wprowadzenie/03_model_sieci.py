@@ -48,7 +48,7 @@ model.summary()
 
 early_stopping = tf.keras.callbacks.EarlyStopping(
     monitor='val_loss',    # Monitorowanie straty na danych walidacyjnych
-    patience=10,            # Ile epok poczekać na poprawę (w tym przypadku 2)
+    patience=2,            # Ile epok poczekać na poprawę (w tym przypadku 2)
     restore_best_weights=True  # Przywraca wagi z najlepszej epoki
 )
 
