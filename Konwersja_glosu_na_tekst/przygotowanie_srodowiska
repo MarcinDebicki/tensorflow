@@ -1,0 +1,8 @@
+Instalujesz na swoim środowisku:
+
+pip install -U openai-whisper
+pip install ffmpeg-python
+winget install ffmpeg
+
+uruchom:
+whisper --model large --language pl Nagrywanie.m4a
